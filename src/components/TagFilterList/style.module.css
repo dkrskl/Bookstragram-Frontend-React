@@ -1,0 +1,23 @@
+.tag {
+    border: 1px solid #070707;
+    color: #070707;
+    font-size: 14px;
+    display: inline-block;
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #070707;
+    color: white;
+}
+
+.tagWrapper {
+    margin-right: 10px;
+}
+
+.tagListContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}

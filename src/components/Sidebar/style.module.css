@@ -1,0 +1,36 @@
+.sidebar {
+    background-color: #F0F0F0;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+}
+
+.sidebarItem {
+    padding: 6px 8px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    flex-direction: row;
+    display: flex;
+}
+
+.sidebarItem:hover {
+    color: black;
+}
+
+.sidebarItemActive {
+    color: black;
+    background-color: lightgrey;
+}
+
+.sidebarTextContainer {
+    flex: 4;
+}
+
+.sidebarIconContainer {
+    flex: 1;
+}

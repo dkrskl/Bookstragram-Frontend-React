@@ -1,0 +1,19 @@
+.photoContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filtersContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.tagFiltersContainer {
+    flex: 7;
+}
+
+.dropdownFilterContainer {
+    flex: 3;
+}
